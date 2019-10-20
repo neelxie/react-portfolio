@@ -19,7 +19,6 @@ function App() {
           <Main/>
         </Content>
       </Layout>
-      <div>Derek</div>
     </div>
   );
 }
