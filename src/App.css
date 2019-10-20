@@ -1,10 +1,8 @@
-.mdl-layout__header > .is-casting-shadow{
-  background-color: red;
-}
+
 .header-color {
   background: #00bf8f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #01271e, #0cb68b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);
+  background: linear-gradient(to top, #01271e, #0cb68b);
   color: white;
   font-size: 3rem;
   font-family: cursive;
@@ -46,8 +44,8 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  background: #00bf8f;
+  color: black;
   padding: 2em;
 }
 
@@ -101,7 +99,7 @@
 }
 
 .banner-text {
-  background-color: rgb(12, 129, 94);
+  background-color: rgb(98, 129, 12);
   opacity: .9;
   width: 75%;
   margin: auto;
@@ -139,4 +137,28 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+.overall{
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #001510, #00bf8f);
+}
+.personal-details{
+  background-color: rgb(247, 250, 246);
+  padding: 2%;
+  border-radius: 4px;
+}
+.companyName{
+  margin-top: 0px;
+  color: rgb(63, 20, 20);
+  font-family: "Roboto";
+  text-decoration-line: underline;
+  text-decoration-color: #001510;
+}
+.job-info{
+  width: 90%;
+  font-size: 18px;
+}
+Button{
+  margin-left: 6px;
 }
