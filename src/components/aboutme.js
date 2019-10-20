@@ -20,7 +20,7 @@ class About extends Component {
                 Angular and React. I thrive on challenges and love tasks that
                 push me out of my comfort-zone to learn new things. I am a life-long
                 learner. I love unconventional ideas and humor. I occassionally write.
-                I an ex-Civil engineer.
+                I am ex-Civil engineer.
               </p>
               <hr style={{ borderTop: "3px solid #00bf8f", width: "50%" }} />
               <h5>Address</h5>
