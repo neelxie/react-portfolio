@@ -123,11 +123,10 @@
 }
 
 h2{
-  color: white;
+  color: #00bf8f;
 }
 .text-name {
   color: hotpink; }
-
 
 .banner-text hr {
   border-top: 5px solid white;
@@ -149,7 +148,7 @@ h2{
 }
 
 .social-links i {
-  color: red;
+  color: hotpink;
   font-size: 5em;
   padding: 8px;
   float: left;
@@ -191,8 +190,17 @@ Button{
   background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #001510, #00bf8f);
 }
-.backg{
-  background: url(./img/bg.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+
+.mdl-card__supporting-text{
+  color: white;
+}
+div.mdl-card__supporting-text{
+  color: white;
+}
+a.mdl-button.mdl-js-button.mdl-button--colored.git-button,
+a.mdl-button.mdl-js-button.mdl-button--colored.demo-button{
+  color: hotpink;
+}
+.card-text{
+  font-family: monospace;
 }

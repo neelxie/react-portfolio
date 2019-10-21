@@ -29,19 +29,18 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                fontFamily: "monospace",
               }}
             >
-              React Project #1
+              LandVille
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              LandVille is an online platform where Africans in the diaspora can sign up,
+              browse and purchase real estate properties. Django
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={'https://github.com/landvilleng/landville-backend-web-api/blob/develop/'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://landville-backend-web-api.herokuapp.com/'}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -54,19 +53,17 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #2
+              Authors' Haven
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              Authors' Haven is an online platform similar to medium where users can
+              signup and create, read, edit, rate, like and delete articles. Django
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={'https://github.com/neelxie/ah-backend-realers/tree/develop/'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://ah-backend-realers.herokuapp.com/swagger'}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -79,19 +76,17 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #3
+              Epic Mail
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              Epic Mail is a communication application that allows registered users to communicate
+              to each other and also create groups. Flask
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={'https://github.com/neelxie/epic-mail/tree/challenge3'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://app.swaggerhub.com/apis-docs/GreatestCoderEverApi/Epic-mail/1.0.0'}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -102,19 +97,17 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #3
+              iReporter
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              iReporter is an application that allows every citizen to raise an issue that needs 
+              community or leadership authority to intervene and solve it. Flask
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={'https://github.com/neelxie/ireport-api/tree/challenge3'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://my-ireporta.herokuapp.com/api/v2/'}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -125,19 +118,17 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #3
+              Send-IT
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              This is an application where users signup to have their packages delivered, and
+              also be able to monitor the updates of their packages enroute. Flask
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={'https://github.com/neelxie/sendApi/tree/develop'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://senditcourierapp.herokuapp.com/api/v1/'}>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -148,19 +139,16 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #3
+              Store Manager
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              Store Manager is an application for a business where store personell can
+              log in, add stock, check store and make sales. Flask
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={'https://github.com/neelxie/Store-Manager'}>GitHub</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -171,19 +159,16 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #3
+              Embeera Yo
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <CardText className="card-text">
+              Embeera Yo is a health app. It helps registered users to follow a healthy diet composed of
+              local foods with the ability to know beforehand the calories intake per meal. Django
             </CardText>
             <CardActions border>
-              <Button colored className="git-button">GitHub</Button>
-              <Button colored className="demo-button">Live Demo</Button>
+              <Button colored className="git-button" href={''}>Private Repo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -193,23 +178,161 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is Angular</h1>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              LandVille
+            </CardTitle>
+            <CardText className="card-text">
+              LandVille is an online platform where Africans in the diaspora can sign up,
+              browse and purchase real estate properties. Angular
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={'https://github.com/landvilleng/landville-frontend'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://landville-frontend.herokuapp.com/'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              Authors' Haven
+            </CardTitle>
+            <CardText className="card-text">
+              Authors' Haven is an online platform similar to medium where users can
+              signup and create, read, edit, rate, like and delete articles. React
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={'https://github.com/neelxie/ah-frontend-realers'}>GitHub</Button>
+              <Button colored className="demo-button" href={'authors-frontend-staging.herokuapp.com/'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              Epic-Mail
+            </CardTitle>
+            <CardText className="card-text">
+              This is a React implementation of the Epic Mail application built on a Django Backend.
+              This was built by WebPack, React and Babel.
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={'https://github.com/neelxie/EpicMailReactJs/tree/develop'}>Github</Button>
+              <Button colored className="demo-button" href={'https://epicmailreact.herokuapp.com/'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              Node-Sass Portofolio
+            </CardTitle>
+            <CardText className="card-text">
+              This is my Portofolio. This was my first attempt at making a Portofolio. It is a 
+              Node-Sass Project.
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={'https://www.github.com/neelxie/portofolio'}>GitHub</Button>
+              <Button colored className="demo-button" href={'https://neelxie.github.io/portfolio/index.html'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              MakeWish Site
+            </CardTitle>
+            <CardText className="card-text">
+              This is a project for the MakeWish Tech Solutions Company website. MakeWish provides ICT-related
+              solutions like Software development, Digital Marketing, Networking and others. PHP/Laravel
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={''}>Private Repo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              InterConn
+            </CardTitle>
+            <CardText className="card-text">
+              InterConn is an application platform to interconnect farmers and sellers. It requires users to be
+              registered in-order to buy or sell produce. PHP/Laravel
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={''}>Private Repo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              TicTacToe
+            </CardTitle>
+            <CardText className="card-text">
+              Tictatoe is the popular tictactoe game implementation. It is an online game please try it out.
+              It is plain Vanilla Javascript, CSS3 and HTML.
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={'https://github.com/neelxie/tictactoe/tree/ft-draft'}>Github</Button>
+              <Button colored className="demo-button" href={'https://neelxie.github.io/tictactoe/UI/'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>This is VueJS</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is MongoDB</h1>
-        </div>
-      );
-    }
+    } 
   }
 
   render() {
@@ -220,10 +343,8 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Backend</Tab>
+          <Tab>Frontend</Tab>
         </Tabs>
 
         <Grid>

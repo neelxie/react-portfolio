@@ -8,7 +8,7 @@ class Landing extends Component{
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
-              <h1 className="myname">Sekidde <span className="text-name">Derrick Isaac</span></h1>
+              <h1 className="myname"><span className="text-name">Sekidde</span> Derrick </h1>
 
               <h2>Full Stack Web Developer</h2>
 
