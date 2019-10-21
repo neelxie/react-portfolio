@@ -13,7 +13,7 @@
 }
 .myname{
   -webkit-font-smoothing: antialiased;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
   color: white;
@@ -26,11 +26,10 @@
   margin-bottom: 24px;
 }
 .landing-grid {
-  background: #00bf8f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
-  text-align: center;
+  background: url(./img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -40,9 +39,19 @@
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-/* Resume Page css */
+.project-card{
+  min-width: 450;
+  margin: auto;
+  margin-bottom: 40px;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+
 .resume-right-col {
   background: #00bf8f;
   color: black;
@@ -99,29 +108,35 @@
 }
 
 .banner-text {
-  background-color: rgb(98, 129, 12);
-  opacity: .9;
-  width: 75%;
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 100%;
   margin: auto;
-  height: 65%;
+  height: 100%;
   border-radius: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 76px;
   font-weight: bold;
   color: white;
   padding-top: 9%;
 }
 
+h2{
+  color: white;
+}
+.text-name {
+  color: hotpink; }
+
+
 .banner-text hr {
   border-top: 5px solid white;
-  width: 50%;
-  margin: auto;
+  width: 40%;
+  margin-right: auto;
 }
 
 .banner-text p {
-  color: white;
+  color: hotpink;
   font-size: 20px;
   padding: 1em;
 }
@@ -130,13 +145,14 @@
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin: auto;
+  float: left;
 }
 
 .social-links i {
-  color: white;
+  color: red;
   font-size: 5em;
   padding: 8px;
+  float: left;
 }
 .overall{
   background: #00bf8f;  /* fallback for old browsers */
@@ -161,4 +177,22 @@
 }
 Button{
   margin-left: 6px;
+}
+.git-button{
+  float: left;
+}
+.demo-button{
+  float:right;
+}
+
+.mdl-card.mdl-shadow--16dp.project-card{
+  color: white;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+.backg{
+  background: url(./img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
