@@ -40,9 +40,19 @@
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-/* Resume Page css */
+.project-card{
+  min-width: 450;
+  margin: auto;
+  margin-bottom: 40px;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+
 .resume-right-col {
   background: #00bf8f;
   color: black;
@@ -99,7 +109,7 @@
 }
 
 .banner-text {
-  background-color: rgb(98, 129, 12);
+  background-color: #0b7a5f;
   opacity: .9;
   width: 75%;
   margin: auto;
@@ -161,4 +171,17 @@
 }
 Button{
   margin-left: 6px;
+}
+.git-button{
+  float: left;
+}
+.demo-button{
+  float:right;
+}
+
+.mdl-card.mdl-shadow--16dp.project-card{
+  color: white;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
 }
