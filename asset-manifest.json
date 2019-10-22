@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.01e91297.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.2b67c0e0.chunk.css",
     "main.js": "/react-portfolio/static/js/main.5e2b1769.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.5e2b1769.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.98067e24.js",
@@ -9,17 +9,17 @@
     "static/js/2.e8918276.chunk.js": "/react-portfolio/static/js/2.e8918276.chunk.js",
     "static/js/2.e8918276.chunk.js.map": "/react-portfolio/static/js/2.e8918276.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.dcca9ed5d32e9d4276deead6a77cb04a.js": "/react-portfolio/precache-manifest.dcca9ed5d32e9d4276deead6a77cb04a.js",
+    "precache-manifest.4fd1b5a2befccf8c5ed0b5af7a0a3ff7.js": "/react-portfolio/precache-manifest.4fd1b5a2befccf8c5ed0b5af7a0a3ff7.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.04aae6c4.chunk.css.map": "/react-portfolio/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.01e91297.chunk.css.map": "/react-portfolio/static/css/main.01e91297.chunk.css.map",
+    "static/css/main.2b67c0e0.chunk.css.map": "/react-portfolio/static/css/main.2b67c0e0.chunk.css.map",
     "static/media/App.css": "/react-portfolio/static/media/bg.4cebdf42.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.98067e24.js",
     "static/css/2.04aae6c4.chunk.css",
     "static/js/2.e8918276.chunk.js",
-    "static/css/main.01e91297.chunk.css",
+    "static/css/main.2b67c0e0.chunk.css",
     "static/js/main.5e2b1769.chunk.js"
   ]
 }
