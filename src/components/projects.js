@@ -247,7 +247,26 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 3 */}
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
+              Portofolio
+            </CardTitle>
+            <CardText className="card-text">
+              This project for my portofolio which is done in plain React. This is the actual project that you are navigating.
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={'https://github.com/neelxie/react-portfolio'}>Github</Button>
+              <Button colored className="demo-button" href={'https://neelxie.github.io/react-portfolio/'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
           <Card shadow={5} className="project-card">
             <CardTitle
               style={{
