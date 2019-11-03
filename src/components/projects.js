@@ -267,6 +267,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          {/* Project 3 */}
           <Card shadow={5} className="project-card">
             <CardTitle
               style={{
