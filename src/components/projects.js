@@ -232,6 +232,27 @@ class Projects extends Component {
                 height: "176px",
               }}
             >
+              Impala Global Logistics
+            </CardTitle>
+            <CardText className="card-text">
+              This is an Application for the tech innovation Logistics startup company for their flagship product
+            </CardText>
+            <CardActions border>
+              <Button colored className="git-button" href={''}>Private Repo</Button>
+              <Button colored className="demo-button" href={'https://impala-logistics.herokuapp.com/'}>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} className="project-card">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+              }}
+            >
               Epic-Mail
             </CardTitle>
             <CardText className="card-text">
