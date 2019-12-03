@@ -10,6 +10,7 @@ function App() {
       <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Sekidde Derrick Isaac</Link>} scroll>
           <Navigation>
+            <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/blog">Blog</Link>
@@ -19,7 +20,6 @@ function App() {
           <Main/>
         </Content>
       </Layout>
-      <div>Derek</div>
     </div>
   );
 }

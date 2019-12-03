@@ -1,10 +1,8 @@
-.mdl-layout__header > .is-casting-shadow{
-  background-color: red;
-}
+
 .header-color {
   background: #00bf8f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #01271e, #0cb68b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);
+  background: linear-gradient(to top, #01271e, #0cb68b);
   color: white;
   font-size: 3rem;
   font-family: cursive;
@@ -15,7 +13,7 @@
 }
 .myname{
   -webkit-font-smoothing: antialiased;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
   color: white;
@@ -28,11 +26,10 @@
   margin-bottom: 24px;
 }
 .landing-grid {
-  background: #00bf8f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
-  text-align: center;
+  background: url(./img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -42,12 +39,22 @@
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-/* Resume Page css */
+.project-card{
+  min-width: 450;
+  margin: auto;
+  margin-bottom: 40px;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  background: #00bf8f;
+  color: black;
   padding: 2em;
 }
 
@@ -101,29 +108,34 @@
 }
 
 .banner-text {
-  background-color: rgb(12, 129, 94);
-  opacity: .9;
-  width: 75%;
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 100%;
   margin: auto;
-  height: 65%;
+  height: 100%;
   border-radius: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 76px;
   font-weight: bold;
   color: white;
   padding-top: 9%;
 }
 
+h2{
+  color: #00bf8f;
+}
+.text-name {
+  color: hotpink; }
+
 .banner-text hr {
   border-top: 5px solid white;
-  width: 50%;
-  margin: auto;
+  width: 40%;
+  margin-right: auto;
 }
 
 .banner-text p {
-  color: white;
+  color: hotpink;
   font-size: 20px;
   padding: 1em;
 }
@@ -132,11 +144,63 @@
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin: auto;
+  float: left;
 }
 
 .social-links i {
-  color: white;
+  color: hotpink;
   font-size: 5em;
   padding: 8px;
+  float: left;
+}
+.overall{
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #001510, #00bf8f);
+}
+.personal-details{
+  background-color: rgb(247, 250, 246);
+  padding: 2%;
+  border-radius: 4px;
+}
+.companyName{
+  margin-top: 0px;
+  color: rgb(63, 20, 20);
+  font-family: "Roboto";
+  text-decoration-line: underline;
+  text-decoration-color: #001510;
+}
+.job-info{
+  width: 90%;
+  font-size: 18px;
+}
+Button{
+  margin-left: 6px;
+}
+.git-button{
+  float: left;
+}
+.demo-button{
+  float:right;
+}
+
+.mdl-card.mdl-shadow--16dp.project-card{
+  color: white;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+
+.mdl-card__supporting-text{
+  color: white;
+}
+div.mdl-card__supporting-text{
+  color: white;
+}
+a.mdl-button.mdl-js-button.mdl-button--colored.git-button,
+a.mdl-button.mdl-js-button.mdl-button--colored.demo-button{
+  color: hotpink;
+}
+.card-text{
+  font-family: monospace;
 }
