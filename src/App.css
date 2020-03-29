@@ -1,0 +1,206 @@
+
+.header-color {
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);
+  background: linear-gradient(to top, #01271e, #0cb68b);
+  color: white;
+  font-size: 3rem;
+  font-family: cursive;
+}
+.header-color link::hover{
+  color: white;
+  background-color: red;
+}
+.myname{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin-top: 74px;
+  margin-bottom: 24px;
+}
+.landing-grid {
+  background: url(./img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.project-card{
+  min-width: 450;
+  margin: auto;
+  margin-bottom: 40px;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+
+.resume-right-col {
+  background: #00bf8f;
+  color: black;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 76px;
+  font-weight: bold;
+  color: white;
+  padding-top: 9%;
+}
+
+h2{
+  color: #00bf8f;
+}
+.text-name {
+  color: hotpink; }
+
+.banner-text hr {
+  border-top: 5px solid white;
+  width: 40%;
+  margin-right: auto;
+}
+
+.banner-text p {
+  color: hotpink;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  float: left;
+}
+
+.social-links i {
+  color: red;
+  font-size: 5em;
+  padding: 8px;
+  float: left;
+}
+.overall{
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #001510, #00bf8f);
+}
+.personal-details{
+  background-color: rgb(247, 250, 246);
+  padding: 2%;
+  border-radius: 4px;
+}
+.companyName{
+  margin-top: 0px;
+  color: rgb(63, 20, 20);
+  font-family: "Roboto";
+  text-decoration-line: underline;
+  text-decoration-color: #001510;
+}
+.job-info{
+  width: 90%;
+  font-size: 18px;
+}
+Button{
+  margin-left: 6px;
+}
+.git-button{
+  float: left;
+}
+.demo-button{
+  float:right;
+}
+
+.mdl-card.mdl-shadow--16dp.project-card{
+  color: white;
+  background: #00bf8f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #001510, #00bf8f);
+}
+
+.mdl-card__supporting-text{
+  color: white;
+}
+div.mdl-card__supporting-text{
+  color: white;
+}
+a.mdl-button.mdl-js-button.mdl-button--colored.git-button,
+a.mdl-button.mdl-js-button.mdl-button--colored.demo-button{
+  color: hotpink;
+}
+.card-text{
+  font-family: monospace;
+}
